@@ -1,41 +1,63 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     /* Наведение на превью на главном экране карточки */
-    // let previewDots = document.querySelectorAll('.preview-dots .preview-dots_img-container .preview-dots_img');
+    let previewDots = document.querySelectorAll('.preview-dots .preview-dots_img-container .preview-dots_img');
 
-    // previewDots.forEach(item => {
-    //     item.addEventListener('mouseover', (e) => {
-    //         previewDots.forEach(el => { el.classList.remove('active'); });
-    //         item.classList.add('active');
-    //     });
-    // });
+    previewDots.forEach(item => {
+        item.addEventListener('mouseover', (e) => {
+            previewDots.forEach(el => { el.classList.remove('active'); });
+            item.classList.add('active');
+        });
+    });
+
 
     /* Зум на главном слайдере */
-    $('.main-slider_item').zoom();
+    if (window.matchMedia("(min-width: 901px)").matches) {
+        $('.main-slider_item').zoom();
+    }
 
 
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
-        fade: false,
+        dots: true,
+        dotsClass: 'slide-dots',
+        arrows: true,
+        fade: true,
         vertical: false,
         infinite: false,
-        asNavFor: '.slider-nav'
+        nextArrow: '.main-slider_buttons .next-btn',
+        prevArrow: '.main-slider_buttons .prev-btn',
+        responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+
+                }
+            }
+        ]
+        //asNavFor: '.slider-nav',
     });
     $('.slider-nav').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
-        asNavFor: '.slider-for',
+        //asNavFor: '.slider-for',
         dots: false,
         arrows: true,
         vertical: true,
         infinite: false,
-        focusOnSelect: true,
+        focusOnSelect: false,
         prevArrow: '.preview-dots button.up',
         nextArrow: '.preview-dots button.down',
     });
 
+    $('.slider-nav').on('mouseenter', '.slick-slide', function (e) {
+        let $currTarget = $(e.currentTarget),
+            index = $currTarget.data('slick-index'),
+            slickObj = $('.slider-for').slick('getSlick');
+
+        slickObj.slickGoTo(index);
+    });
 
 
     /* Переключение табов */
@@ -89,16 +111,20 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
 
-
             allCharacteristic.addEventListener("click", function (e) {
+
+                document.querySelector('.card-tabs').scrollIntoView({ behavior: "smooth" });
+
                 activeLink.classList.remove(currentClass);
                 activeLink.parentNode.classList.remove('active');
                 activeContent.classList.remove(currentClass);
 
                 document.querySelector('.card-tabs li:nth-child(2)').classList.add("active");
                 document.getElementById('characteristic').classList.add("active");
+
                 e.preventDefault();
             });
+
 
         });
 
@@ -107,8 +133,67 @@ document.addEventListener('DOMContentLoaded', function () {
     nestedTabSelect('ul.card-tabs', 'active');
 
 
+    /* Убираем черту разделения в табах */
+    let allTab = document.querySelectorAll(".card-tabs_item");
+
+    allTab.forEach(item => {
+        item.addEventListener('click', (e) => {
+            allTab.forEach(el => { el.classList.remove('none-line'); });
+            item.previousElementSibling.classList.add("none-line");
+        });
+    });
+
+
+
+    /* Слайдер в таблицах "Характеристик" */
+    $(".characteristic-slider").slick({
+        dots: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        infinite: false,
+        autoplay: false,
+        nextArrow: '.characteristic-slider_container .next-btn',
+        prevArrow: '.characteristic-slider_container .prev-btn',
+        responsive: [
+            {
+                breakpoint: 901,
+                settings: {
+                    mobileFirst: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    nextArrow: '.characteristic-slider_container .next-btn',
+                    prevArrow: '.characteristic-slider_container .prev-btn',
+                }
+            }
+        ],
+        asNavFor: '.td-slider',
+    });
+
+    $(".td-slider").slick({
+        dots: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        infinite: false,
+        autoplay: false,
+        draggable: false,
+        
+        responsive: [
+            {
+                breakpoint: 901,
+                settings: {
+                    mobileFirst: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+
     /* Плавающая форма */
-    if (window.matchMedia("(min-width: 1025px)").matches) {
+    if (window.matchMedia("(min-width: 901px)").matches) {
         (function () {
             var a = document.querySelector('#card-form_sticky'),
                 b = null,
@@ -184,20 +269,39 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    /* Скрытие таблиц в характеристиках */
+    let $thead = $('.characteristic_block .table .thead');
+    let $table = $('.characteristic_block .table .tbody');
 
+    $thead.each(function (i) {
+        $(this).click(function () {
+            $thead.eq(i).toggleClass("active");
+            $table.eq(i).toggleClass("active");
+        });
+    });
 
 
     /* Слайдер "Рекомендуем" */
     $(".card-recomendation_items").slick({
         dots: true,
+        appendDots: $('.card-recomendation_dots'),
         dotsClass: 'slide-dots',
         slidesToShow: 4,
         slidesToScroll: 4,
         arrows: true,
         infinite: false,
         autoplay: false,
-        nextArrow: '.next-btn',
-        prevArrow: '.prev-btn',
+        nextArrow: '.card-recomendation_buttons .next-btn',
+        prevArrow: '.card-recomendation_buttons .prev-btn',
+        responsive: [
+            {
+                breakpoint: 901,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
     $(".prev-btn").click(function () {
         $(".slick-list").slick("slickPrev");
@@ -220,6 +324,26 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+
+
+    /* Маска для телефона */
+    $("input[type=tel]").mask("+7 (999) 999-99-99");
+
+
+    if ($(window).width() <= 570) {
+        $('.card-tabs').slick({
+            dots: false,
+            arrows: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            centerMode: false,
+            variableWidth: false,
+            nextArrow: '.arrows-container .arrow-right',
+            prevArrow: '.arrows-container .arrow-left',
+        });
+    }
 
 
 });
