@@ -146,51 +146,56 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     /* Слайдер в таблицах "Характеристик" */
-    $(".characteristic-slider").slick({
-        dots: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: true,
-        infinite: false,
-        autoplay: false,
-        nextArrow: '.characteristic-slider_container .next-btn',
-        prevArrow: '.characteristic-slider_container .prev-btn',
-        responsive: [
-            {
-                breakpoint: 901,
-                settings: {
-                    mobileFirst: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    nextArrow: '.characteristic-slider_container .next-btn',
-                    prevArrow: '.characteristic-slider_container .prev-btn',
+    $('.card-tabs_item').click(function () {
+        $(".characteristic-slider").slick({
+            dots: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            infinite: false,
+            autoplay: false,
+            draggable: false,
+            nextArrow: '.characteristic-slider_container .next-btn',
+            prevArrow: '.characteristic-slider_container .prev-btn',
+            responsive: [
+                {
+                    breakpoint: 901,
+                    settings: {
+                        mobileFirst: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        nextArrow: '.characteristic-slider_container .next-btn',
+                        prevArrow: '.characteristic-slider_container .prev-btn',
+                    }
                 }
-            }
-        ],
-        asNavFor: '.td-slider',
+            ],
+            asNavFor: '.td-slider',
+        });
+
+        $(".td-slider").slick({
+            dots: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: false,
+            infinite: false,
+            autoplay: false,
+            draggable: false,
+
+            responsive: [
+                {
+                    breakpoint: 901,
+                    settings: {
+                        mobileFirst: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
     });
 
-    $(".td-slider").slick({
-        dots: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: false,
-        infinite: false,
-        autoplay: false,
-        draggable: false,
-        
-        responsive: [
-            {
-                breakpoint: 901,
-                settings: {
-                    mobileFirst: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            }
-        ]
-    });
+
 
     /* Плавающая форма */
     if (window.matchMedia("(min-width: 901px)").matches) {
@@ -303,26 +308,29 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         ]
     });
-    $(".prev-btn").click(function () {
-        $(".slick-list").slick("slickPrev");
-    });
+    
+    // $(".prev-btn").click(function () {
+    //     $(".slick-list").slick("slickPrev");
+    // });
 
-    $(".next-btn").click(function () {
-        $(".slick-list").slick("slickNext");
-    });
-    $(".prev-btn").addClass("slick-disabled");
-    $(".slick-list").on("afterChange", function () {
-        if ($(".slick-prev").hasClass("slick-disabled")) {
-            $(".prev-btn").addClass("slick-disabled");
-        } else {
-            $(".prev-btn").removeClass("slick-disabled");
-        }
-        if ($(".slick-next").hasClass("slick-disabled")) {
-            $(".next-btn").addClass("slick-disabled");
-        } else {
-            $(".next-btn").removeClass("slick-disabled");
-        }
-    });
+    // $(".next-btn").click(function () {
+    //     $(".slick-list").slick("slickNext");
+    // });
+
+    //$(".prev-btn").addClass("slick-disabled");
+    
+    // $(".slick-list").on("afterChange", function () {
+    //     if ($(".slick-prev").hasClass("slick-disabled")) {
+    //         $(".prev-btn").addClass("slick-disabled");
+    //     } else {
+    //         $(".prev-btn").removeClass("slick-disabled");
+    //     }
+    //     if ($(".slick-next").hasClass("slick-disabled")) {
+    //         $(".next-btn").addClass("slick-disabled");
+    //     } else {
+    //         $(".next-btn").removeClass("slick-disabled");
+    //     }
+    // });
 
 
 
