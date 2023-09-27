@@ -80,7 +80,7 @@
         width: 100%;
         max-width: 100%;
         min-width: 100%;
-        height: 100%;
+        height: unset;
     }
 
     .main-slider_item {
@@ -128,15 +128,12 @@
     }
 
     .main-slider_buttons button:before {
-        display: block;
-        content: '';
         width: 16px;
         height: 14px;
     }
 
     .main-slider .slide-dots {
-        display: -ms-grid !important;
-        display: grid !important;
+        display: grid;
     }
 
 
@@ -682,36 +679,13 @@
         font-size: 15px;
     }
 
-    .card-main .card-recomendation .slide-dots {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        grid-gap: 8px;
+    .card-main .card-recomendation_dots {
         margin-top: 20px;
     }
 
-    .card-main .card-recomendation .slide-dots li {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        width: 8px;
+    .card-main .card-recomendation .slide-dots {
+        display: grid;
     }
-
-    .card-main .card-recomendation .slide-dots li:not(:first-child) {
-        margin-left: 8px;
-    }
-
-    .card-main .card-recomendation .slide-dots li button {
-        width: 8px;
-        border-radius: 5px;
-    }
-
     /* /БЛОК РЕКОМЕНДАЦИИ */
 
 
@@ -1093,10 +1067,11 @@
         width: 30px;
         min-width: 30px;
         height: 30px;
+        min-height: 30px;
     }
 
     .characteristic-slider_container button:before {
-        width: 13px;
+        width: 12px;
         height: 12px;
     }
 
@@ -1197,12 +1172,12 @@
     }
 
     .card-tabs_container .arrow-right::before {
-        background: url(/assets/img/icons/arrow-right.svg) no-repeat;
+        background: url(/assets/img/icons/arrow-right.svg) no-repeat center;
         background-size: 100%;
     }
 
     .card-tabs_container .arrow-left:before {
-        background: url(/assets/img/icons/arrow-left.svg) no-repeat;
+        background: url(/assets/img/icons/arrow-left.svg) no-repeat center;
         background-size: 100%;
     }
 

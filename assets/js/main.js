@@ -1,22 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    /* Наведение на превью на главном экране карточки */
-    let previewDots = document.querySelectorAll('.preview-dots .preview-dots_img-container .preview-dots_img');
-
-    previewDots.forEach(item => {
-        item.addEventListener('mouseover', (e) => {
-            previewDots.forEach(el => { el.classList.remove('active'); });
-            item.classList.add('active');
-        });
-    });
-
-
     /* Зум на главном слайдере */
     if (window.matchMedia("(min-width: 901px)").matches) {
         $('.main-slider_item').zoom();
     }
 
 
+    /* Основной и мини слайдер на первом экране */
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -26,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         fade: true,
         vertical: false,
         infinite: false,
+        speed: 10,
         nextArrow: '.main-slider_buttons .next-btn',
         prevArrow: '.main-slider_buttons .prev-btn',
         responsive: [
@@ -35,28 +26,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 }
             }
-        ]
-        //asNavFor: '.slider-nav',
+        ],
+        //asNavFor: ".slider-nav",
     });
+
     $('.slider-nav').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
-        //asNavFor: '.slider-for',
         dots: false,
         arrows: true,
         vertical: true,
         infinite: false,
         focusOnSelect: false,
+        speed: 10,
         prevArrow: '.preview-dots button.up',
         nextArrow: '.preview-dots button.down',
+        //asNavFor: ".slider-for",
     });
-
     $('.slider-nav').on('mouseenter', '.slick-slide', function (e) {
+
         let $currTarget = $(e.currentTarget),
             index = $currTarget.data('slick-index'),
             slickObj = $('.slider-for').slick('getSlick');
 
         slickObj.slickGoTo(index);
+    });
+
+    /* Наведение на превью на главном экране карточки */
+    let previewDots = document.querySelectorAll('.preview-dots .preview-dots_img-container .preview-dots_img');
+
+    previewDots.forEach(item => {
+        item.addEventListener('mouseover', (e) => {
+            previewDots.forEach(el => { el.classList.remove('active'); });
+            item.classList.add('active');
+        });
     });
 
 
@@ -195,6 +198,54 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    $('.all-characteristic').click(function () {
+        $(".characteristic-slider").slick({
+            dots: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            infinite: false,
+            autoplay: false,
+            draggable: false,
+            nextArrow: '.characteristic-slider_container .next-btn',
+            prevArrow: '.characteristic-slider_container .prev-btn',
+            responsive: [
+                {
+                    breakpoint: 901,
+                    settings: {
+                        mobileFirst: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        nextArrow: '.characteristic-slider_container .next-btn',
+                        prevArrow: '.characteristic-slider_container .prev-btn',
+                    }
+                }
+            ],
+            asNavFor: '.td-slider',
+        });
+
+        $(".td-slider").slick({
+            dots: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: false,
+            infinite: false,
+            autoplay: false,
+            draggable: false,
+
+            responsive: [
+                {
+                    breakpoint: 901,
+                    settings: {
+                        mobileFirst: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+    });
 
 
     /* Плавающая форма */
@@ -308,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         ]
     });
-    
+
     // $(".prev-btn").click(function () {
     //     $(".slick-list").slick("slickPrev");
     // });
@@ -318,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // });
 
     //$(".prev-btn").addClass("slick-disabled");
-    
+
     // $(".slick-list").on("afterChange", function () {
     //     if ($(".slick-prev").hasClass("slick-disabled")) {
     //         $(".prev-btn").addClass("slick-disabled");

@@ -2,10 +2,10 @@
     font-family: 'Apercu Pro';
     src: url('/assets/fonts/Manrope/ApercuPro/ApercuPro-Medium.eot');
     src: local('Apercu Pro Medium'), local('ApercuPro-Medium'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Medium.woff2') format('woff2'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Medium.woff') format('woff'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Medium.ttf') format('truetype');
+    url('/assets/fonts/ApercuPro/ApercuPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Medium.woff2') format('woff2'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Medium.woff') format('woff'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -15,10 +15,10 @@
     font-family: 'Apercu Pro';
     src: url('/assets/fonts/ApercuPro/ApercuPro-ExtraLight.eot');
     src: local('Apercu Pro ExtraLight'), local('ApercuPro-ExtraLight'),
-        url('/assets/fonts/ApercuPro/ApercuPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/ApercuPro/ApercuPro-ExtraLight.woff2') format('woff2'),
-        url('/assets/fonts/ApercuPro/ApercuPro-ExtraLight.woff') format('woff'),
-        url('/assets/fonts/ApercuPro/ApercuPro-ExtraLight.ttf') format('truetype');
+    url('/assets/fonts/ApercuPro/ApercuPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/ApercuPro/ApercuPro-ExtraLight.woff2') format('woff2'),
+    url('/assets/fonts/ApercuPro/ApercuPro-ExtraLight.woff') format('woff'),
+    url('/assets/fonts/ApercuPro/ApercuPro-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -28,10 +28,10 @@
     font-family: 'Apercu Pro';
     src: url('/assets/fonts/ApercuPro-Black.eot');
     src: local('Apercu Pro Black'), local('ApercuPro-Black'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Black.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Black.woff2') format('woff2'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Black.woff') format('woff'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Black.ttf') format('truetype');
+    url('/assets/fonts/ApercuPro/ApercuPro-Black.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Black.woff2') format('woff2'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Black.woff') format('woff'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -41,10 +41,10 @@
     font-family: 'Apercu Pro';
     src: url('/assets/fonts/ApercuPro-Bold.eot');
     src: local('Apercu Pro Bold'), local('ApercuPro-Bold'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Bold.woff2') format('woff2'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Bold.woff') format('woff'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Bold.ttf') format('truetype');
+    url('/assets/fonts/ApercuPro/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Bold.woff2') format('woff2'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Bold.woff') format('woff'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -54,10 +54,10 @@
     font-family: 'Apercu Pro';
     src: url('/assets/fonts/ApercuPro-Thin.eot');
     src: local('Apercu Pro Thin'), local('ApercuPro-Thin'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Thin.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Thin.woff2') format('woff2'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Thin.woff') format('woff'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Thin.ttf') format('truetype');
+    url('/assets/fonts/ApercuPro/ApercuPro-Thin.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Thin.woff2') format('woff2'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Thin.woff') format('woff'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -67,10 +67,10 @@
     font-family: 'Apercu Pro';
     src: url('/assets/fonts/ApercuPro/ApercuPro-Regular.eot');
     src: local('Apercu Pro Regular'), local('ApercuPro-Regular'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Regular.woff2') format('woff2'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Regular.woff') format('woff'),
-        url('/assets/fonts/ApercuPro/ApercuPro-Regular.ttf') format('truetype');
+    url('/assets/fonts/ApercuPro/ApercuPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Regular.woff2') format('woff2'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Regular.woff') format('woff'),
+    url('/assets/fonts/ApercuPro/ApercuPro-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -80,106 +80,14 @@
     font-family: 'Apercu Pro';
     src: url('/assets/fonts/ApercuPro-Light.eot');
     src: local('Apercu Pro Light'), local('ApercuPro-Light'),
-        url('/assets/fonts/ApercuPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/ApercuPro-Light.woff2') format('woff2'),
-        url('/assets/fonts/ApercuPro-Light.woff') format('woff'),
-        url('/assets/fonts/ApercuPro-Light.ttf') format('truetype');
+    url('/assets/fonts/ApercuPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/ApercuPro-Light.woff2') format('woff2'),
+    url('/assets/fonts/ApercuPro-Light.woff') format('woff'),
+    url('/assets/fonts/ApercuPro-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('/assets/fonts/Manrope/Manrope-Bold.eot');
-    src: local('Manrope Bold'), local('Manrope-Bold'),
-        url('/assets/fonts/Manrope/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Manrope/Manrope-Bold.woff2') format('woff2'),
-        url('/assets/fonts/Manrope/Manrope-Bold.woff') format('woff'),
-        url('/assets/fonts/Manrope/Manrope-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('/assets/fonts/Manrope/Manrope-Semibold.eot');
-    src: local('Manrope Semibold'), local('Manrope-Semibold'),
-        url('/assets/fonts/Manrope/Manrope-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Manrope/Manrope-Semibold.woff2') format('woff2'),
-        url('/assets/fonts/Manrope/Manrope-Semibold.woff') format('woff'),
-        url('/assets/fonts/Manrope/Manrope-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('/assets/fonts/Manrope/Manrope-Regular.eot');
-    src: local('Manrope Regular'), local('Manrope-Regular'),
-        url('/assets/fonts/Manrope/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Manrope/Manrope-Regular.woff2') format('woff2'),
-        url('/assets/fonts/Manrope/Manrope-Regular.woff') format('woff'),
-        url('/assets/fonts/Manrope/Manrope-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('/assets/fonts/Manrope/Manrope-Light.eot');
-    src: local('Manrope Light'), local('Manrope-Light'),
-        url('/assets/fonts/Manrope/Manrope-Light.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Manrope/Manrope-Light.woff2') format('woff2'),
-        url('/assets/fonts/Manrope/Manrope-Light.woff') format('woff'),
-        url('/assets/fonts/Manrope/Manrope-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('/assets/fonts/Manrope/Manrope-Thin.eot');
-    src: local('Manrope Thin'), local('Manrope-Thin'),
-        url('/assets/fonts/Manrope/Manrope-Thin.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Manrope/Manrope-Thin.woff2') format('woff2'),
-        url('/assets/fonts/Manrope/Manrope-Thin.woff') format('woff'),
-        url('/assets/fonts/Manrope/Manrope-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('/assets/fonts/Manrope/Manrope-Medium.eot');
-    src: local('Manrope Medium'), local('Manrope-Medium'),
-        url('/assets/fonts/Manrope/Manrope-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Manrope/Manrope-Medium.woff2') format('woff2'),
-        url('/assets/fonts/Manrope/Manrope-Medium.woff') format('woff'),
-        url('/assets/fonts/Manrope/Manrope-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Manrope';
-    src: url('/assets/fonts/Manrope/Manrope-ExtraBold.eot');
-    src: local('Manrope ExtraBold'), local('Manrope-ExtraBold'),
-        url('/assets/fonts/Manrope/Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Manrope/Manrope-ExtraBold.woff2') format('woff2'),
-        url('/assets/fonts/Manrope/Manrope-ExtraBold.woff') format('woff'),
-        url('/assets/fonts/Manrope/Manrope-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-}
-
 
 h1,
 h2,
@@ -288,7 +196,6 @@ body {
     display: flex;
     grid-gap: calc(10px + (20 - 10) * ((100vw - 900px) / (1920 - 900)));
     margin-top: calc(10px + (20 - 10) * ((100vw - 900px) / (1920 - 900)));
-    /* width: 100%; */
 }
 
 .card-main_top__left {
@@ -299,8 +206,6 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    /* width: 100%;
-    height: 100%; */
 }
 
 .card-main_top__left .preview-dots {
@@ -315,6 +220,15 @@ body {
     -ms-flex-align: center;
     align-items: center;
     grid-gap: calc(8px + (16 - 8) * ((100vw - 900px) / (1920 - 900)));
+    height: 100%;
+}
+
+.card-main_top__left .preview-dots .preview-dots_img:not(:nth-child(-n+5)) {
+    display: none;
+}
+
+.card-main_top__left .preview-dots .preview-dots_img-container.slick-initialized .preview-dots_img:not(:nth-child(-n+5)) {
+    display: block;
 }
 
 .card-main_top__left .preview-dots button.up,
@@ -394,7 +308,6 @@ body {
     background-size: contain;
     border-radius: calc(5px + (10 - 5) * ((100vw - 900px) / (1920 - 900)));
     border: 1px solid transparent;
-    /* box-shadow: 0px 1px 45px 0px rgba(0, 0, 0, 0.10); */
     cursor: pointer;
 }
 
@@ -425,6 +338,20 @@ body {
     box-shadow: 0px 1px 45px 0px rgba(0, 0, 0, 0.10);
     width: calc(300px + (466 - 300) * ((100vw - 900px) / (1920 - 900)));
     height: 100%;
+}
+
+.main-slider .main-slider_item:not(:first-child) {
+    display: none;
+}
+
+.main-slider .slick-initialized .main-slider_item:not(:first-child) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.main-slider .main-slider_items {
+    position: relative;
 }
 
 .main-slider_item {
@@ -466,6 +393,11 @@ body {
 }
 
 .main-slider_buttons button {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -485,20 +417,41 @@ body {
     cursor: pointer;
 }
 
+.main-slider_buttons .prev-btn {
+    left: 12px;
+}
+
+.main-slider_buttons .next-btn {
+    right: 12px;
+}
+
 .main-slider_buttons button:before {
-    display: block;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
     content: '';
     width: calc(12px + (16 - 12) * ((100vw - 900px) / (1920 - 900)));
     height: calc(10px + (14 - 10) * ((100vw - 900px) / (1920 - 900)));
 }
 
 .main-slider_buttons .prev-btn:before {
-    background: url(/assets/img/icons/arrow-left.svg) no-repeat;
+    background: url(/assets/img/icons/arrow-left.svg) no-repeat center;
     background-size: 100%;
 }
 
 .main-slider_buttons .next-btn:before {
-    background: url(/assets/img/icons/arrow-right.svg) no-repeat;
+    background: url(/assets/img/icons/arrow-right.svg) no-repeat center;
     background-size: 100%;
 }
 
@@ -508,22 +461,27 @@ body {
 
 .main-slider .slide-dots {
     position: absolute;
-    display: none !important;
+    bottom: 16px;
+    display: none;
     grid-auto-flow: column;
+    gap: 8px;
     grid-gap: 8px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    bottom: 16px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
+    max-width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .main-slider .slide-dots li {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: inline-flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -533,11 +491,18 @@ body {
 }
 
 .main-slider .slide-dots li button {
-    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-indent: -9999px;
-    width: 100%;
-    max-width: 48px;
     height: 3px;
+    padding: 0 2vw;
     background-color: #DDD;
     border: unset;
     border-radius: 10px;
@@ -553,8 +518,6 @@ body {
     display: -ms-grid;
     display: grid;
     grid-gap: calc(10px + (20 - 10) * ((100vw - 900px) / (1920 - 900)));
-    /* width: 100%;
-    height: 100%; */
 }
 
 .card-main_top__right .characteristic {
@@ -732,8 +695,8 @@ body {
 
 .characteristic_left-block .characteristic_btn__container .characteristic_btn .btn-buy {
     color: #FFF;
-    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: -o-linear-gradient(top, #35BD71 0%, #00A147 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: linear-gradient(180deg, #35BD71 0%, #00A147 100%);
     border: 1px solid #00A147;
 }
@@ -753,8 +716,8 @@ body {
 
 .characteristic_left-block .characteristic_btn__container .characteristic_btn .btn-offer:hover {
     color: #FFF;
-    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: -o-linear-gradient(top, #35BD71 0%, #00A147 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: linear-gradient(180deg, #35BD71 0%, #00A147 100%);
 }
 
@@ -1146,8 +1109,8 @@ body {
 }
 
 .card-main_bottom .card-form .card-form_btn input[type="submit"]:last-child {
-    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: -o-linear-gradient(top, #35BD71 0%, #00A147 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: linear-gradient(180deg, #35BD71 0%, #00A147 100%);
     color: #FFF;
 }
@@ -1155,8 +1118,8 @@ body {
 
 .card-main_bottom .card-form .card-form_btn input[type="submit"]:first-child:hover,
 .card-main_bottom .card-form .card-form_btn input[type="submit"]:first-child:focus {
-    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: -o-linear-gradient(top, #35BD71 0%, #00A147 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: linear-gradient(180deg, #35BD71 0%, #00A147 100%);
     color: #FFF;
 }
@@ -1177,7 +1140,7 @@ body {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
     margin-top: calc(40px + (80 - 40) * ((100vw - 900px) / (1920 - 900)));
-    background: url(/assets/img/form-background.jpg) no-repeat;
+    background: url(/assets/img/form-background.jpg) no-repeat center;
     background-size: 100%;
     border-radius: calc(10px + (20 - 10) * ((100vw - 900px) / (1920 - 900)));
 }
@@ -1255,8 +1218,8 @@ body {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: -o-linear-gradient(top, #35BD71 0%, #00A147 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: linear-gradient(180deg, #35BD71 0%, #00A147 100%);
     border: 1px solid transparent;
     border-radius: calc(5px + (10 - 5) * ((100vw - 900px) / (1920 - 900)));
@@ -1349,12 +1312,12 @@ body {
 }
 
 .card-recomendation .card-recomendation_buttons .prev-btn::before {
-    background: url(/assets/img/icons/arrow-left.svg) no-repeat;
+    background: url(/assets/img/icons/arrow-left.svg) no-repeat center;
     background-size: 100%;
 }
 
 .card-recomendation .card-recomendation_buttons .next-btn::before {
-    background: url(/assets/img/icons/arrow-right.svg) no-repeat;
+    background: url(/assets/img/icons/arrow-right.svg) no-repeat center;
     background-size: 100%;
 }
 
@@ -1390,7 +1353,6 @@ body {
     border-radius: 10px;
     border: 1px solid #EEE;
     background: #FFF;
-    /* box-shadow: 0px 1px 45px 0px rgba(0, 0, 0, 0.10); */
 }
 
 .card-main .card-recomendation .card-recomendation_item .top {
@@ -1630,8 +1592,8 @@ body {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: -o-linear-gradient(top, #35BD71 0%, #00A147 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#35BD71), to(#00A147));
     background: linear-gradient(180deg, #35BD71 0%, #00A147 100%);
     border: 1px solid transparent;
     border-radius: 10px;
@@ -1649,21 +1611,39 @@ body {
     color: #00A147;
 }
 
+.card-main .card-recomendation_dots {
+    margin-top: calc(20px + (25 - 20) * ((100vw - 900px) / (1920 - 900)));
+}
+
 .card-main .card-recomendation .slide-dots {
-    display: -ms-grid;
-    display: grid;
     grid-auto-flow: column;
-    /* grid-gap: calc(8px + (15 - 8) * ((100vw - 900px) / (1920 - 900))); */
+    gap: 8px;
+    grid-gap: 8px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: calc(20px + (25 - 20) * ((100vw - 900px) / (1920 - 900)));
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
+    max-width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .card-main .card-recomendation .slide-dots li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card-main .card-recomendation .slide-dots li button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1673,17 +1653,9 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-}
-
-.card-main .card-recomendation .slide-dots li:not(:first-child) {
-    margin-left: calc(8px + (15 - 8) * ((100vw - 900px) / (1920 - 900)));
-}
-
-.card-main .card-recomendation .slide-dots li button {
-    position: relative;
     text-indent: -9999px;
-    width: calc(24px + (48 - 24) * ((100vw - 900px) / (1920 - 900)));
     height: 3px;
+    padding: 0 2vw;
     background-color: #DDD;
     border: unset;
     border-radius: 10px;
@@ -1745,6 +1717,10 @@ body {
     display: grid;
     grid-auto-flow: column;
     grid-gap: calc(10px + (20 - 10) * ((100vw - 900px) / (1920 - 900)));
+}
+
+.card-tabs_description .card-tabs_description__item .img-container a {
+    cursor: pointer;
 }
 
 .card-tabs_description .card-tabs_description__item .img-container img {
@@ -1848,7 +1824,6 @@ body {
 }
 
 /* /ТАБ ОПИСАНИЕ */
-
 
 
 /* ТАБ ВИДЕО */
@@ -2131,13 +2106,18 @@ body {
     grid-gap: calc(6px + (12 - 6) * ((100vw - 900px) / (1920 - 900)));
 }
 
-.card-tabs_otzyvy .card-tabs_otzyvy__item_body .feedback-img img {
-    width: 100%;
-    max-width: calc(50px + (98 - 50) * ((100vw - 900px) / (1920 - 900)));
-    border-radius: calc(5px + (10 - 5) * ((100vw - 900px) / (1920 - 900)));
+.card-tabs_otzyvy .card-tabs_otzyvy__item_body .feedback-img a {
+    cursor: pointer;
 }
 
-
+.card-tabs_otzyvy .card-tabs_otzyvy__item_body .feedback-img img {
+    width: 100%;
+    height: 100%;
+    max-width: calc(50px + (98 - 50) * ((100vw - 900px) / (1920 - 900)));
+    border-radius: calc(5px + (10 - 5) * ((100vw - 900px) / (1920 - 900)));
+    -o-object-fit: cover;
+    object-fit: cover;
+}
 
 
 /* ТАБ ХАРАКТЕРИСТИКИ */
@@ -2205,11 +2185,11 @@ body {
 .characteristic-top .characteristic-slider .item {
     display: block;
     padding: 0 15px;
+    width: 120px;
 }
 
 .characteristic-top .characteristic-slider .item.slick-slide {
     width: 100%;
-    /* min-width: 186px; */
 }
 
 .characteristic-top .characteristic-slider .item span {
@@ -2264,7 +2244,7 @@ body {
     content: '';
     width: 13px;
     height: 8px;
-    background: url(/assets/img/icons/arrow_up.svg) no-repeat;
+    background: url(/assets/img/icons/arrow_up.svg) no-repeat center;
     background-size: 100%;
     -webkit-transform: translate(0, -20%) rotate(180deg);
     -ms-transform: translate(0, -20%) rotate(180deg);
@@ -2302,7 +2282,6 @@ body {
     display: grid;
     -ms-grid-columns: 0.25fr 1fr;
     grid-template-columns: 0.25fr 1fr;
-    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -2319,7 +2298,6 @@ body {
 .characteristic_block .characteristic-body .table .tbody .tr .th {
     text-align: left;
     color: #8A8A8A;
-    /* min-width: 190px; */
 }
 
 .characteristic_block .characteristic-body .table .tbody .tr .td-slider {
@@ -2357,19 +2335,32 @@ body {
 }
 
 .characteristic-slider_container button:before {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
     content: '';
     width: calc(12px + (16 - 12) * ((100vw - 900px) / (1920 - 900)));
     height: calc(10px + (14 - 10) * ((100vw - 900px) / (1920 - 900)));
 }
 
 .characteristic-slider_container .prev-btn:before {
-    background: url(/assets/img/icons/arrow-left.svg) no-repeat;
+    background: url(/assets/img/icons/arrow-left.svg) no-repeat center;
     background-size: 100%;
 }
 
 .characteristic-slider_container .next-btn:before {
-    background: url(/assets/img/icons/arrow-right.svg) no-repeat;
+    background: url(/assets/img/icons/arrow-right.svg) no-repeat center;
     background-size: 100%;
 }
 
